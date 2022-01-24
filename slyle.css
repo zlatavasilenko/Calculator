@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.calc {
+  width: 360px;
+  height: 420px;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+input {
+  width: 290px;
+  height: 50px;
+  background-color: white;
+}
+.buttons {
+  width: 290px;
+  height: 265px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.line {
+  width: 295px;
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  width: 70px;
+  height: 45px;
+  background-color: white;
+}
+.zero {
+  width: 145px;
+  height: 45px;
+  background-color: white;
+}
+.intotal {
+  width: 70px;
+  height: 100px;
+  background-color: white;
+}
+.buttonsFotter {
+  width: 295px;
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  width: 145px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right {
+  width: 145px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.numberRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.numberLeft {
+  display: flex;
+  justify-content: space-between;
+}
