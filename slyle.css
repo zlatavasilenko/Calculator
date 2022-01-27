@@ -20,7 +20,7 @@ input {
   background-color: #9bbfd4;
   opacity: 20%;
   border-bottom: 3px solid red;
-  pointer-events: none;
+  color: white;
 }
 .buttons {
   width: 290px;
@@ -45,7 +45,17 @@ input {
   transition: all 1s ease;
   background-color: #627f21;
 }
-
+.buttonOperator {
+  width: 70px;
+  height: 45px;
+  background-color: #3d4245;
+  border: 3px solid #627f21;
+  color: white;
+}
+.buttonOperator:hover {
+  transition: all 1s ease;
+  background-color: #627f21;
+}
 .buttonNumber {
   width: 70px;
   height: 45px;
@@ -57,7 +67,17 @@ input {
   transition: all 1s ease;
   background-color: #4881b5;
 }
-
+.buttonNumberpoint {
+  width: 70px;
+  height: 45px;
+  background-color: #3d4245;
+  border: 3px solid #4881b5;
+  color: white;
+}
+.buttonNumberpoint:hover {
+  transition: all 1s ease;
+  background-color: #4881b5;
+}
 .buttonCE {
   width: 70px;
   height: 45px;
