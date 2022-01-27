@@ -4,9 +4,11 @@ body {
 }
 
 .calc {
+  position: absolute;
+  top: 20%;
   width: 360px;
   height: 420px;
-  background-color: blue;
+  background-color: #3d4245;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -15,7 +17,10 @@ body {
 input {
   width: 290px;
   height: 50px;
-  background-color: white;
+  background-color: #9bbfd4;
+  opacity: 20%;
+  border-bottom: 3px solid red;
+  pointer-events: none;
 }
 .buttons {
   width: 290px;
@@ -32,18 +37,63 @@ input {
 .button {
   width: 70px;
   height: 45px;
-  background-color: white;
+  background-color: #3d4245;
+  border: 3px solid #627f21;
+  color: white;
 }
+.button:hover {
+  transition: all 1s ease;
+  background-color: #627f21;
+}
+
+.buttonNumber {
+  width: 70px;
+  height: 45px;
+  background-color: #3d4245;
+  border: 3px solid #4881b5;
+  color: white;
+}
+.buttonNumber:hover {
+  transition: all 1s ease;
+  background-color: #4881b5;
+}
+
+.buttonCE {
+  width: 70px;
+  height: 45px;
+  background-color: #3d4245;
+  border: 3px solid #de4355;
+  color: white;
+}
+.buttonCE:hover {
+  transition: all 1s ease;
+  background-color: #de4355;
+}
+
 .zero {
   width: 145px;
   height: 45px;
-  background-color: white;
+  color: white;
+  background-color: #3d4245;
+  border: 3px solid #4881b5;
 }
+.zero:hover {
+  transition: all 1s ease;
+  background-color: #4881b5;
+}
+
 .intotal {
   width: 70px;
   height: 100px;
-  background-color: white;
+  background-color: #3d4245;
+  border: 3px solid #627f21;
+  color: white;
 }
+.intotal:hover {
+  transition: all 1s ease;
+  background-color: #627f21;
+}
+
 .buttonsFotter {
   width: 295px;
   display: flex;
