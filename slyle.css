@@ -20,7 +20,8 @@ input {
   background-color: #9bbfd4;
   opacity: 20%;
   border-bottom: 3px solid red;
-  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
 }
 .buttons {
   width: 290px;
@@ -51,6 +52,7 @@ input {
   background-color: #3d4245;
   border: 3px solid #627f21;
   color: white;
+  cursor: pointer;
 }
 .buttonOperator:hover {
   transition: all 1s ease;
@@ -62,6 +64,7 @@ input {
   background-color: #3d4245;
   border: 3px solid #4881b5;
   color: white;
+  cursor: pointer;
 }
 .buttonNumber:hover {
   transition: all 1s ease;
@@ -84,6 +87,7 @@ input {
   background-color: #3d4245;
   border: 3px solid #de4355;
   color: white;
+  cursor: pointer;
 }
 .buttonCE:hover {
   transition: all 1s ease;
@@ -96,6 +100,7 @@ input {
   color: white;
   background-color: #3d4245;
   border: 3px solid #4881b5;
+  cursor: pointer;
 }
 .zero:hover {
   transition: all 1s ease;
@@ -108,6 +113,7 @@ input {
   background-color: #3d4245;
   border: 3px solid #627f21;
   color: white;
+  cursor: pointer;
 }
 .intotal:hover {
   transition: all 1s ease;
